@@ -1,0 +1,44 @@
+{
+  "name": "Optic Gaming",
+  "prefix": "Optic",
+  "file": "optic",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "AYYJAYY",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/AyyJayyRL",
+        "youtube": "https://www.youtube.com/channel/UCktpnUzA1CI7rWna-Uc0tKA",
+        "twitch": "https://www.twitch.tv/ayyjayy"
+      }
+    },
+    {
+      "name": "MaJicBear",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/MaJicBear",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/majicbearrl"
+      }
+    },
+    {
+      "name": "Retals",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/retals",
+        "youtube": "https://www.youtube.com/channel/UCRLM6B6rGXDSJawUH_mHHPw",
+        "twitch": "https://www.twitch.tv/retalsrl"
+      }
+    },
+    {
+      "name": "RawGreg",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/RAWGREGRL",
+        "youtube": "",
+        "twitch": ""
+      }
+    }
+  ]
+}

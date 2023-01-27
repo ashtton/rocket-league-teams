@@ -1,0 +1,44 @@
+{
+  "name": "Version1",
+  "prefix": "V1",
+  "file": "version1",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "BeastMode",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/BeastModeLK",
+        "youtube": "https://www.youtube.com/channel/UCJQp0R42KGqB_PakyEQ_qwQ",
+        "twitch": "https://www.twitch.tv/BeastModeLK"
+      }
+    },
+    {
+      "name": "Comm",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/RL_Comm",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/commrl"
+      }
+    },
+    {
+      "name": "Torment",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/Torment",
+        "youtube": "https://www.youtube.com/channel/UCKVuFhw6B9ViUkwInIEc2gw",
+        "twitch": "https://www.twitch.tv/TormentRL"
+      }
+    },
+    {
+      "name": "Fireburner",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/Fireburner",
+        "youtube": "https://www.youtube.com/channel/UCGEb1g_gBAVpMoFUq2ggFBg",
+        "twitch": "https://www.twitch.tv/fireburner"
+      }
+    }
+  ]
+}

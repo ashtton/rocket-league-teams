@@ -1,0 +1,44 @@
+{
+  "name": "NRG Esports",
+  "prefix": "NRG",
+  "file": "nrg",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "jstn",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/itsjstn",
+        "youtube": "https://www.youtube.com/@Its_JSTN",
+        "twitch": "https://www.twitch.tv/itsjstn"
+      }
+    },
+    {
+      "name": "Squishy",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/squishymuffinz",
+        "youtube": "https://www.youtube.com/@SquishyMuffinz",
+        "twitch": "https://www.twitch.tv/squishymuffinz"
+      }
+    },
+    {
+      "name": "GarretG",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/GarrettG",
+        "youtube": "https://www.youtube.com/c/garrettg",
+        "twitch": "https://www.twitch.tv/garrettg"
+      }
+    },
+    {
+      "name": "Jonny",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/epicjonnyy",
+        "youtube": "",
+        "twitch": ""
+      }
+    }
+  ]
+}

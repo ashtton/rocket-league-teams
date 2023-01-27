@@ -1,0 +1,44 @@
+{
+  "name": "G2 Esports",
+  "prefix": "G2",
+  "file": "g2",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "Atomic",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/At0micRL",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/Atomic"
+      }
+    },
+    {
+      "name": "Chicago",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/ChicagoRL",
+        "youtube": "https://www.youtube.com/channel/UC3Ac5mG8pIiwAwblDMQXZNA",
+        "twitch": "https://www.twitch.tv/Chicago"
+      }
+    },
+    {
+      "name": "JKnaps",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/JKnaps",
+        "youtube": "https://www.youtube.com/channel/UCNIYtowoUF3hIQyDx7RCqMA",
+        "twitch": "https://www.twitch.tv/jknapsrl"
+      }
+    },
+    {
+      "name": "Satthew",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/Satthew",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/satthew"
+      }
+    }
+  ]
+}

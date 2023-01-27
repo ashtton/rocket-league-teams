@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans";
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("/fonts/NotoSans-Regular.ttf")
+}

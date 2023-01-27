@@ -1,0 +1,44 @@
+{
+  "name": "Spacestation Gaming",
+  "prefix": "SSG",
+  "file": "spacestation",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "Arsenal",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/ArsenalRL",
+        "youtube": "https://www.youtube.com/channel/UCuRS9KcqyOamnYjd6zOKiFQ",
+        "twitch": "https://www.twitch.tv/Arsenal"
+      }
+    },
+    {
+      "name": "Daniel",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/DanielRL__",
+        "youtube": "https://www.youtube.com/channel/UCrVzYVe_JdstIYV6TX1i0Og",
+        "twitch": "https://www.twitch.tv/danielrl__"
+      }
+    },
+    {
+      "name": "LJ",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/rl_ljfett",
+        "youtube": "",
+        "twitch": ""
+      }
+    },
+    {
+      "name": "Chrome",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/ChromeRL",
+        "youtube": "https://www.youtube.com/channel/UCKMAVuNsSQnJ-SCZhdIwPEQ",
+        "twitch": "https://www.twitch.tv/Chrome"
+      }
+    }
+  ]
+}

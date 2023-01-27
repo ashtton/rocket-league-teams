@@ -1,0 +1,44 @@
+{
+  "name": "FaZe",
+  "prefix": "FaZe",
+  "file": "faze",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "Firstkiller",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/firstkiller",
+        "youtube": "https://www.youtube.com/channel/UCp1ZS6_YcyEtpUnMJcKkhIA",
+        "twitch": "https://www.twitch.tv/firstkiller"
+      }
+    },
+    {
+      "name": "Sypical",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/Sypical",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/sypical"
+      }
+    },
+    {
+      "name": "mist",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/mistRL",
+        "youtube": "https://www.youtube.com/channel/UCL9gRuxGT1PCL2JvRFn9f6w",
+        "twitch": "https://www.twitch.tv/mist_rl"
+      }
+    },
+    {
+      "name": "Roll Dizz",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/RollDizz",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/rolldizz"
+      }
+    }
+  ]
+}

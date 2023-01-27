@@ -1,0 +1,53 @@
+{
+  "name": "Dignitas",
+  "prefix": "Dignitas",
+  "file": "dignitas",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "Andy",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/Andyrl_",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/Andyrl_"
+      }
+    },
+    {
+      "name": "Evoh",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/rl_evoh",
+        "youtube": "https://www.youtube.com/channel/UCZzh5-Ssb5w8EU3cDt2aqjA",
+        "twitch": "https://www.twitch.tv/yungevoh_"
+      }
+    },
+    {
+      "name": "dreaz",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/dreazuh",
+        "youtube": "https://www.youtube.com/channel/UC6ymcP_7BWeZo_OvXvko0MQ",
+        "twitch": "https://www.twitch.tv/dreaz"
+      }
+    },
+    {
+      "name": "B0ston",
+      "role": "Substitute",
+      "connections": {
+        "twitter": "https://en.wikipedia.org/wiki/Boston_Scott",
+        "youtube": "",
+        "twitch": ""
+      }
+    },
+    {
+      "name": "Nick",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/NickOnRL",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/nickonrl"
+      }
+    }
+  ]
+}

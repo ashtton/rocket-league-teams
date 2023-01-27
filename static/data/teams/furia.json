@@ -1,0 +1,44 @@
+{
+  "name": "Furia Esports",
+  "prefix": "Furia",
+  "file": "furia",
+  "region": "NA",
+  "roster": [
+    {
+      "name": "Lostt",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/Losttrl",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/losttrl"
+      }
+    },
+    {
+      "name": "caard",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/caardrl",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/caardrl"
+      }
+    },
+    {
+      "name": "yanxnz",
+      "role": "Player",
+      "connections": {
+        "twitter": "https://twitter.com/yanxnz",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/yanxnz_"
+      }
+    },
+    {
+      "name": "Kairos",
+      "role": "Coach",
+      "connections": {
+        "twitter": "https://twitter.com/KingKairos_",
+        "youtube": "",
+        "twitch": "https://www.twitch.tv/KingKairos1"
+      }
+    }
+  ]
+}
