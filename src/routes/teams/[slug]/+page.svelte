@@ -11,7 +11,7 @@
         <span class="header-title">
             <strong>{data.team.name}</strong>
         </span>
-        <img class="header-flag" src="/images/flags/us.png">
+        <img class="header-flag" src="/images/flags/{data.team.region.toLowerCase()}.png">
     </div>
 
     <div class="players-container">
@@ -86,6 +86,18 @@
         grid-template-columns: 15rem 15rem 15rem;
         grid-auto-rows: 25rem;
         gap: 2rem;
+    }
+
+    @media(max-width: 800px) {
+        .players {
+            grid-template-columns: 15rem 15rem;
+        }
+    }
+
+    @media(max-width: 500px) {
+        .players {
+            grid-template-columns: 15rem;
+        }
     }
 
     .player {

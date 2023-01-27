@@ -9,7 +9,9 @@
 </svelte:head>
 
 <a href="/" class="header">
-    <img class="header-img" src="/images/rl-logo.png">
+    <span class="header-logo">
+        <img class="header-img" src="/images/rl-logo.png">
+    </span>
     <div class="header-text">
         <strong class="header-title" style="font-size: 2rem">Rocket League</strong><br>
         Teams
@@ -30,9 +32,15 @@
         color: #336699;
     }
 
+    @media(max-width: 800px) {
+        .header {
+            display: grid;
+        }
+    }
+
     .header-img {
-        width: 10%;
-        height: 10%;
+        width: 5.5rem;
+        height: 5rem;
     }
 
     .header-text {
@@ -41,7 +49,7 @@
 
     .header-line {
         margin-top: 2rem;
-        width: 40%;
+        width: 50%;
         border-color: #2F4858;
     }
 </style>

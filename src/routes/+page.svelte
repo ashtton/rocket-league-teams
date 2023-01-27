@@ -3,11 +3,67 @@
 	page.set("Home")
 
     export let data;
+
+    let displayingNA = true;
+    let displayingEU = true;
+
+    let sortingBy = "a-z";
+
+    let allTeams = data.teams;
+    let teams = allTeams;
+
+    function sortTeams() {
+        if (sortingBy === "a-z") {
+            teams = teams.sort((a, b) => a.name.localeCompare(b.name))
+        }
+
+        if (sortingBy === "z-a") {
+            teams = teams.sort((a, b) => -a.name.localeCompare(b.name))
+        }
+
+        if (sortingBy === "region") {
+            teams = teams.sort((a, b) => a.region.localeCompare(b.region))
+        }
+    }
+
+    $: {
+        teams = allTeams.filter(value => (value.region === "US" && displayingNA) ||
+            (value.region === "EU" && displayingEU))
+    }
 </script>
 
 <div class="container">
+    <div class="filters">
+        <span class="sort-by">
+            Sort By:
+            <select bind:value={sortingBy} on:change={() => sortTeams()} class="filter">
+                <option value="a-z">
+                    Alphabetical A-Z
+                </option>
+                <option value="z-a">
+                    Alphabetical Z-A
+                </option>
+                <option value="region">
+                    Region
+                </option>
+            </select>
+        </span>
+
+        <span class="filter-by">
+            Filters:
+            <span class="filter">
+                <input type="checkbox" bind:checked={displayingNA}>North America
+            </span>
+            <span class="filter">
+                <input type="checkbox" bind:checked={displayingEU}>Europe
+            </span>
+        </span>
+    </div>
+    {#if teams.length === 0}
+        <span class="no-teams">There are no teams to display</span>
+    {/if}
     <div class="teams">
-        {#each data.teams as team}
+        {#each teams as team}
             <a href="teams/{team.file}" class="team">
                 <div class="team-logo">
                     <img src="/images/teams/{team.file}.png"><br>
@@ -22,10 +78,20 @@
 
 <style>
     .container {
-        margin-top: 3rem;
-        display: flex;
+        display: grid;
         justify-content: center;
         color: gray;
+    }
+
+    .filters {
+        margin-bottom: 2.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .filter {
+        margin-left: 0.5rem;
     }
 
     .teams {
@@ -33,6 +99,34 @@
         grid-template-columns: 6rem 6rem 6rem 6rem 6rem;
         grid-auto-rows: 10rem;
         gap: 3rem;
+        justify-content: center;
+    }
+
+    @media(max-width: 800px) {
+        .teams {
+            grid-template-columns: 6rem 6rem 6rem 6rem;
+        }
+
+        .filters {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    @media(max-width: 600px) {
+        .teams {
+            grid-template-columns: 6rem 6rem 6rem;
+        }
+    }
+
+    @media(max-width: 400px) {
+        .teams {
+            grid-template-columns: 6rem 6rem;
+        }
+    }
+
+    .no-teams {
+        text-align: center;
     }
 
     .team {
